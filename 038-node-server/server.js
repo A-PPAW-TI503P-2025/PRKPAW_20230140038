@@ -7,9 +7,11 @@ const morgan = require("morgan");
 const presensiRoutes = require("./routes/presensi"); 
 const reportRoutes = require("./routes/reports");   
 const ruteBuku = require("./routes/books");
+const authRoutes = require("./routes/auth");
 
 app.use(cors());           
 app.use(express.json());   
+app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));    
 
 app.use((req, res, next) => { 
@@ -23,7 +25,8 @@ app.get("/", (req, res) => {
 
 app.use("/api/books", ruteBuku);
 app.use("/api/presensi", presensiRoutes); 
-app.use("/api/reports", reportRoutes);   
+app.use("/api/reports", reportRoutes);
+app.use("/api/auth", authRoutes);
 
 app.listen(PORT, () => {
   console.log(`Express server running at http://localhost:${PORT}/`); 
