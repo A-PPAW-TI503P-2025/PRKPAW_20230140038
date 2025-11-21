@@ -6,7 +6,7 @@ const morgan = require("morgan");
 
 const presensiRoutes = require("./routes/presensi"); 
 const reportRoutes = require("./routes/reports");   
-const ruteBuku = require("../routes/books");         
+const ruteBuku = require("./routes/books");
 
 app.use(cors());           
 app.use(express.json());   
