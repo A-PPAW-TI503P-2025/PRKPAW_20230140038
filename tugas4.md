@@ -1,0 +1,7 @@
+![alt text](<localhost_3000_api_presen.. - PPAW - Visual Studio Code 21_11_2025 22_20_23.png>)
+![alt text](<MySQL Workbench 21_11_2025 22_21_16.png>)
+![alt text](<localhost_3000_api_presen.. - PPAW - Visual Studio Code 21_11_2025 22_21_58.png>)
+![alt text](<localhost_3000_api_presen.. - PPAW - Visual Studio Code 21_11_2025 22_22_36.png>)
+![alt text](<MySQL Workbench 21_11_2025 22_24_31.png>)
+![alt text](<localhost_3000_api_presen.. - PPAW - Visual Studio Code 21_11_2025 22_29_11.png>)
+![alt text](<localhost_3000_api_presen.. - PPAW - Visual Studio Code 21_11_2025 22_29_38.png>)
